@@ -2,13 +2,12 @@
 
 Changes DNS records with Cloudflare on a interval (round robin style but with interval), or if a service is detected to be overloaded or unavailable, tracked via prometheus queries.
 
-## Installation
-
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
+## Instructions
+Pass the following as ENV vars, preferably probably `.env`
+```
+CLOUDFLARE_EMAIL=myemail@example.tld
+CLOUDFLARE_KEY=abcdefghijklmnopqrstuvwxyz
+```
 
 ## Development
 

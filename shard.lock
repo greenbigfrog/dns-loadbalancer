@@ -1,0 +1,10 @@
+version: 2.0
+shards:
+  cryflare:
+    git: https://github.com/GrottoPress/cryflare.git
+    version: 0.1.0
+
+  dotenv:
+    git: https://github.com/drum445/dotenv.git
+    version: 0.3.0
+
