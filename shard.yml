@@ -1,0 +1,13 @@
+name: dns-loadbalancer
+version: 0.1.0
+
+authors:
+  - Jonathan B. <greenbigfrog@gmail.com>
+
+targets:
+  dns-loadbalancer:
+    main: src/dns-loadbalancer.cr
+
+crystal: 0.36.1
+
+license: MIT
