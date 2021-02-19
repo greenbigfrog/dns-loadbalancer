@@ -5,8 +5,8 @@ Changes DNS records with Cloudflare on a interval (round robin style but with in
 ## Instructions
 Pass the following as ENV vars, preferably probably `.env`
 ```
-CLOUDFLARE_EMAIL=myemail@example.tld
-CLOUDFLARE_KEY=abcdefghijklmnopqrstuvwxyz
+CLOUDFLARE_TOKEN=abcdefghijklmnopqrstuvwxyz
+ZONE=4abe1fe2add41273f25ec0eb54455df38
 ```
 
 ## Development
